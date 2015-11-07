@@ -1,3 +1,4 @@
+// Modified to redirect the contact form to formspree.io.
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
