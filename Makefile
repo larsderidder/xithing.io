@@ -5,7 +5,7 @@ css:
 
 deploy: css
 	git add css/xithing.css
-	git commit -m "Deploy"
+	-git commit -m "Deploy"
 	git push origin gh-pages
 
 http:
