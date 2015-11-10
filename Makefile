@@ -1,5 +1,11 @@
 .PHONY: css
 
+watch-css:
+	bash -c "\
+	while inotifywait less/xithing.less; do\
+		make css;\
+	done"
+
 css:
 	lessc less/xithing.less css/xithing.css
 
