@@ -277,6 +277,7 @@ header .intro-text .intro-heading img {
     margin-bottom: 50px;
   }
   header .intro-text .intro-heading img {
+    display: inline;
     height: 50px;
   }
 }
