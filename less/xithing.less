@@ -168,12 +168,13 @@ header {
 	background-image: url('../img/xithing-web11.png');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-position: 50% 50%;
+	background-position: 50% 75px;
+    background-size: 200px;
 	text-align: center;
 	color: white;
     background-color: #000;
 	.intro-text {
-		padding-top: 100px;
+		padding-top: 250px;
 		padding-bottom: 50px;
 		.intro-lead-in {
 			.serif-font;
@@ -188,6 +189,9 @@ header {
 			font-size: 50px;
 			line-height: 50px;
 			margin-bottom: 25px;
+            img {
+                display: none;
+            }
 		}
 	}
 }
@@ -212,6 +216,10 @@ header {
 				font-size: 75px;
 				line-height: 75px;
 				margin-bottom: 50px;
+                img {
+                    display: inline;
+                    height: 50px;
+                }
 			}
 		}
 	}
@@ -386,6 +394,9 @@ section {
             	margin-top: 12px;
             	line-height: 14px;
             }
+            a {
+                color: white;
+            }
         }
         &.timeline-inverted > .timeline-panel {
             float: right;
@@ -513,6 +524,7 @@ section {
 	img {
 		margin: 0 auto;
 		border: 7px solid white;
+        width: 225px;
 	}
 	h4 {
 		margin-top: 25px;
