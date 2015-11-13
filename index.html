@@ -103,7 +103,7 @@
                         <i class="fa fa-sitemap fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Make things smart & connected</h4>
-                    <p class="text-muted">We are good at making anything smart and connect them to a larger network. Anything from lamp posts to bicycles, and from shopping carts to airplanes. You're a producer of design bikes and want to turn them into smart, connected digital citizens? XIThing is that rare company that can help you with every aspect of the project. From thinking up useful use cases to implementing the software stack, and from running the project as an efficient agile project to designing API's to expose the functionality of a device. XIThing's team of experienced engineers know how to deliver value on time to both you and the rest of the world.</pre>
+                    <p class="text-muted readmore">We are good at making anything smart and connect them to a larger network. Anything from lamp posts to bicycles, and from shopping carts to airplanes. You're a producer of design bikes and want to turn them into smart, connected digital citizens? XIThing is that rare company that can help you with every aspect of the project. From thinking up useful use cases to implementing the software stack, and from running the project as an efficient agile project to designing API's to expose the functionality of a device. XIThing's team of experienced engineers know how to deliver value on time to both you and the rest of the world.</pre>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -111,7 +111,7 @@
                         <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Improving business processes with smart devices</h4>
-                    <p class="text-muted">Many business processes can be improved, and many new ones created, by the smart application of IoT technologies. Used correctly they can make processes faster, safer, cheaper and more predictable. XIThing's unique process-driven modelling approach ensures that IoT technologies are only applied to those steps in a process where they make sense and add value.</p>
+                    <p class="text-muted readmore">Many business processes can be improved, and many new ones created, by the smart application of IoT technologies. Used correctly they can make processes faster, safer, cheaper and more predictable. XIThing's unique process-driven modelling approach ensures that IoT technologies are only applied to those steps in a process where they make sense and add value.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -119,7 +119,7 @@
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Device Security</h4>
-                    <p class="text-muted">When making connecting smart things with each other, security is your number one responsibility. With HaXIT XIThing will offer a platform where the world's best hardware hackers help you with making sure your IoT enabled device is as secure as possible. It's the easiest, fastest and best way to make your devices IoT proof!</p>
+                    <p class="text-muted readmore">When making connecting smart things with each other, security is your number one responsibility. With HaXIT XIThing will offer a platform where the world's best hardware hackers help you with making sure your IoT enabled device is as secure as possible. It's the easiest, fastest and best way to make your devices IoT proof!</p>
                 </div>
             </div>
         </div>
@@ -326,6 +326,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/readmore.min.js"></script>
+    <script>
+        $('.timeline-body, .readmore').readmore({
+            collapsedHeight: 170,
+            lessLink: '<a href="#">Read less</a>'
+        });
+    </script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
