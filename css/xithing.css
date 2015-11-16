@@ -297,11 +297,11 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
-section#blog {
+section#article {
   padding: 20px 0;
 }
 @media (min-width: 768px) {
-  section:not(#blog) {
+  section:not(#article) {
     padding: 150px 0;
   }
 }
