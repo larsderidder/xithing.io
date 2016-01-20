@@ -2,7 +2,7 @@
 
 watch-css:
 	bash -c "\
-	while inotifywait less/xithing.less; do\
+	while inotifywait less/*.less; do\
 		make css;\
 	done"
 
